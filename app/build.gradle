@@ -1,0 +1,7 @@
+plugins { id 'com.android.application' }
+android {
+    namespace 'com.lastzone.game'
+    compileSdk 33
+    defaultConfig { applicationId 'com.lastzone.game'; minSdk 21; targetSdk 33; versionCode 1; versionName '1.0' }
+    buildTypes { release { minifyEnabled false; signingConfig signingConfigs.debug } }
+}
